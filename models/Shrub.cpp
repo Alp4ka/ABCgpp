@@ -1,4 +1,5 @@
 #include <cstdlib>
+#include <iostream>
 #include "Shrub.h"
 
 Shrub::Shrub(){}

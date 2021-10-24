@@ -1,3 +1,3 @@
-C:/ABCgpp/CMakeFiles/program.dir
-C:/ABCgpp/CMakeFiles/edit_cache.dir
-C:/ABCgpp/CMakeFiles/rebuild_cache.dir
+/home/roman/Desktop/ABCgpp/CMakeFiles/rebuild_cache.dir
+/home/roman/Desktop/ABCgpp/CMakeFiles/edit_cache.dir
+/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir

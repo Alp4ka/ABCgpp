@@ -5,9 +5,7 @@
 #include "Shrub.h"
 #include "Tree.h"
 char *Plant::getName(){
-    char* temp;
-    strcpy(temp, this->name);
-    return temp;
+    return this->name;
 }
 
 void Plant::setName(char *new_name){
@@ -15,7 +13,6 @@ void Plant::setName(char *new_name){
 }
 
 Plant::Plant(){
-    this->name = (char *)malloc(1001);
 }
 
 Plant::Plant(char *name){
@@ -39,7 +36,6 @@ Plant *Plant::readData(FILE *file) {
     Plant *plant;
     char name[1001];
     auto plant_type = (Plant::PlantType) plant_type_int;
-
     switch (plant_type) {
         case Plant::FLOWER: {
             int flower_type_int;

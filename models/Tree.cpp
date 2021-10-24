@@ -1,4 +1,5 @@
 #include <cstdlib>
+#include <iostream>
 #include "Tree.h"
 
 Tree::Tree(){}
@@ -24,7 +25,7 @@ void Tree::setAge(int value) {
 char *Tree::repr(){
     char *result = (char *) malloc(1001);
     sprintf(result,
-            "######__TREE__#######\nName:\t%s\nAge:\t%lld y\n#####################\n",
+            "######__TREE__#######\nName:\t%s\nAge:\t%d y\n#####################\n",
             this->getName(),
             this->getAge());
     return result;

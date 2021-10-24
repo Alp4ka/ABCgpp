@@ -5,7 +5,7 @@
 #include <stdio.h>
 class Plant {
 private:
-    char *name;
+    char name[10001];
 
 public:
     enum PlantType {
@@ -25,6 +25,6 @@ public:
     static Plant *readData(FILE *file);
 
     // Represent object as string.
-    char *repr();
+    virtual char *repr();
 };
 #endif //PROGRAM_PLANT_H

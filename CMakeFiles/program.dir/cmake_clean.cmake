@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/program.dir/algorithms/algorithms.cpp.obj"
-  "CMakeFiles/program.dir/container/container.cpp.obj"
-  "CMakeFiles/program.dir/main.cpp.obj"
-  "CMakeFiles/program.dir/models/Flower.cpp.obj"
-  "CMakeFiles/program.dir/models/Plant.cpp.obj"
-  "CMakeFiles/program.dir/models/Shrub.cpp.obj"
-  "CMakeFiles/program.dir/models/Tree.cpp.obj"
-  "CMakeFiles/program.dir/utils/utils.cpp.obj"
-  "bin/program.exe"
-  "bin/program.exe.manifest"
+  "CMakeFiles/program.dir/algorithms/algorithms.cpp.o"
+  "CMakeFiles/program.dir/container/container.cpp.o"
+  "CMakeFiles/program.dir/main.cpp.o"
+  "CMakeFiles/program.dir/models/Flower.cpp.o"
+  "CMakeFiles/program.dir/models/Plant.cpp.o"
+  "CMakeFiles/program.dir/models/Shrub.cpp.o"
+  "CMakeFiles/program.dir/models/Tree.cpp.o"
+  "CMakeFiles/program.dir/utils/utils.cpp.o"
+  "bin/program"
   "bin/program.pdb"
-  "program.lib"
 )
 
 # Per-language clean rules from dependency scanning.

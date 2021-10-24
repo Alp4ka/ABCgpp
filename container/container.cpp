@@ -3,37 +3,43 @@
 #include <cstdlib>
 #include "container.h"
 
-Container *CreateContainer() {
-    Container *container = (Container *) malloc(sizeof(Container));
-    container->size = 0;
-    for (int i = 0; i < MAX_SIZE; ++i) {
-        container->elements[i] = NULL;
-    }
-    return container;
+int Container::length() {
+    return this->current_size;
 }
 
-void DeleteContainer(Container *container) {
-    container->size = -1;
+Container::Container() {
+    this->current_size = 0;
     for (int i = 0; i < MAX_SIZE; ++i) {
-        free(container->elements[i]);
+        this->elements[i] = NULL;
     }
-    free(container);
 }
 
-int AppendContainer(Container *container, Plant *plant) {
-    if (container->size + 1 >= MAX_SIZE) {
+void Container::setAt(int index, Plant *plant) {
+    this->elements[index] = plant;
+}
+
+Container::~Container() {
+    this->current_size = -1;
+    for (int i = 0; i < MAX_SIZE; ++i) {
+        free(this->elements[i]);
+    }
+    free(this);
+}
+
+bool Container::append(Plant *plant) {
+    if (this->current_size + 1 > MAX_SIZE) {
         puts(ERROR_CONTAINER_FULL_MSG);
-        return 0;
+        return false;
     } else {
-        container->elements[(container->size)++] = plant;
-        return 1;
+        this->elements[(this->current_size)++] = plant;
+        return true;
     }
 }
 
-Plant *AtIndex(Container *container, int index) {
-    if (index < 0 || index >= container->size) {
+Plant *Container::atIndex(int index) {
+    if (index < 0 || index >= this->current_size) {
         return NULL;
     } else {
-        return container->elements[index];
+        return this->elements[index];
     }
 }

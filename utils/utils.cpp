@@ -60,10 +60,10 @@ int CountVowels(char line[]) {
  * Count relation between vowels and length in word.
  */
 double CountRelation(Plant plant) {
-    int len = strlength(plant.name);
+    int len = strlength(plant.getName());
     //printf("name: %s    length: %d        vowels: %d\n", plant.name, len, CountVowels(plant.name));
     if (len == 0) {
         return 0.0;
     }
-    return (CountVowels(plant.name) * 1.0) / strlength(plant.name);
+    return (CountVowels(plant.getName()) * 1.0) / strlength(plant.getName());
 }

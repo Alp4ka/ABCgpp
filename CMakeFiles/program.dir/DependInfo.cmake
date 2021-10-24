@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/ABCgpp/algorithms/algorithms.cpp" "C:/ABCgpp/CMakeFiles/program.dir/algorithms/algorithms.cpp.obj"
-  "C:/ABCgpp/container/container.cpp" "C:/ABCgpp/CMakeFiles/program.dir/container/container.cpp.obj"
-  "C:/ABCgpp/main.cpp" "C:/ABCgpp/CMakeFiles/program.dir/main.cpp.obj"
-  "C:/ABCgpp/models/Flower.cpp" "C:/ABCgpp/CMakeFiles/program.dir/models/Flower.cpp.obj"
-  "C:/ABCgpp/models/Shrub.cpp" "C:/ABCgpp/CMakeFiles/program.dir/models/Shrub.cpp.obj"
-  "C:/ABCgpp/models/Tree.cpp" "C:/ABCgpp/CMakeFiles/program.dir/models/Tree.cpp.obj"
-  "C:/ABCgpp/models/Plant.cpp" "C:/ABCgpp/CMakeFiles/program.dir/models/plant.cpp.obj"
-  "C:/ABCgpp/utils/utils.cpp" "C:/ABCgpp/CMakeFiles/program.dir/utils/utils.cpp.obj"
+  "/home/roman/Desktop/ABCgpp/algorithms/algorithms.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/algorithms/algorithms.cpp.o"
+  "/home/roman/Desktop/ABCgpp/container/container.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/container/container.cpp.o"
+  "/home/roman/Desktop/ABCgpp/main.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/main.cpp.o"
+  "/home/roman/Desktop/ABCgpp/models/Flower.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/models/Flower.cpp.o"
+  "/home/roman/Desktop/ABCgpp/models/Plant.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/models/Plant.cpp.o"
+  "/home/roman/Desktop/ABCgpp/models/Shrub.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/models/Shrub.cpp.o"
+  "/home/roman/Desktop/ABCgpp/models/Tree.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/models/Tree.cpp.o"
+  "/home/roman/Desktop/ABCgpp/utils/utils.cpp" "/home/roman/Desktop/ABCgpp/CMakeFiles/program.dir/utils/utils.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

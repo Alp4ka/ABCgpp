@@ -1,4 +1,3 @@
-#include <cstdlib>
 #include "algorithms.h"
 #include "./../models/Plant.h"
 #include "./../utils/utils.h"
@@ -7,27 +6,27 @@ void Merge(Container *container, int p, int q, int r) {
     int n1, n2, i, j, k;
     n1 = q - p + 1;
     n2 = r - q;
-    Plant *L = (Plant *) malloc(sizeof(Plant) * n1);
-    Plant *R = (Plant *) malloc(sizeof(Plant) * n2);
+    Plant **L = new Plant*[n1];
+    Plant **R = new Plant*[n2];
     for (i = 0; i < n1; i++) {
-        L[i] = *AtIndex(container, p + i);
+        L[i] = container->atIndex(p+i);
     }
     for (j = 0; j < n2; j++) {
-        R[j] = *AtIndex(container, q + j + 1);
+        R[j] = container->atIndex(q+j+1);
     }
     i = 0, j = 0;
     for (k = p; i < n1 && j < n2; k++) {
-        if (CountRelation(L[i]) < CountRelation(R[j])) {
-            *AtIndex(container, k) = L[i++];
+        if (CountRelation(*L[i]) < CountRelation(*R[j])) {
+            container->setAt(k, L[i++]);
         } else {
-            *AtIndex(container, k) = R[j++];
+            container->setAt(k, R[j++]);
         }
     }
     while (i < n1) {
-        *AtIndex(container, k++) = L[i++];
+        container->setAt(k++, L[i++]);
     }
     while (j < n2) {
-        *AtIndex(container, k++) = R[j++];
+        container->setAt(k++, R[j++]);
     }
 }
 

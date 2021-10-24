@@ -164,20 +164,20 @@ void WriteToFile(FILE *file, char **data, int size) {
  */
 void WriteToFile(FILE *file, Container *container, int time) {
     if (time == 0) {
-        fprintf(file, "-------INPUT------\nNumber of elements: %d\n", container->size);
+        fprintf(file, "-------INPUT------\nNumber of elements: %d\n", container->length());
         char str_size[255];
-        sprintf(str_size, "-------INPUT------\nNumber of elements: %d", container->size);
+        sprintf(str_size, "-------INPUT------\nNumber of elements: %d", container->length());
         ShowMsg(str_size);
     } else {
-        fprintf(file, "-------OUTPUT------\nNumber of elements: %d\n", container->size);
+        fprintf(file, "-------OUTPUT------\nNumber of elements: %d\n", container->length());
         char str_size[255];
-        sprintf(str_size, "-------OUTPUT------\nNumber of elements: %d", container->size);
+        sprintf(str_size, "-------OUTPUT------\nNumber of elements: %d", container->length());
         ShowMsg(str_size);
     }
-    for (int i = 0; i < container->size; ++i) {
-        char *data = (AtIndex(container, i))->repr();
+    for (int i = 0; i < container->length(); ++i) {
+        char *data = (container->atIndex(i))->repr();
         if (time != 0) {
-            double relation = CountRelation(*AtIndex(container, i));
+            double relation = CountRelation(*container->atIndex(i));
             fprintf(file, "%sRelation: %f\n\n", data, relation);
             ShowMsg(data);
             char rel[255];
@@ -230,7 +230,7 @@ void ReadInput(FILE *input_file, Container *container) {
     fscanf(input_file, "%d", &size);
     for (int i = 0; i < size; ++i) {
         Plant *plant = Plant::readData(input_file);
-        AppendContainer(container, plant);
+        container->append(plant);
     }
 
 }
@@ -239,7 +239,7 @@ int main(int argc, char *argv[]) {
     srand(time(NULL));
     FILE *input_file;
     FILE *output_file;
-    Container *container = CreateContainer();
+    Container *container = new Container();
     if (HandleFlags(argc, argv) == 0) {
         return 0;
     }
@@ -275,12 +275,13 @@ int main(int argc, char *argv[]) {
 
     // Write results.
     WriteToFile(output_file, container, 0);
+
     int start = clock();
-    StraightMerge(container, 0, container->size - 1);
+    StraightMerge(container, 0, container->length()- 1);
+
     WriteToFile(output_file, container, (clock() - start) / 10);
 
     fclose(input_file);
     fclose(output_file);
-    DeleteContainer(container);
     return 0;
 }
