@@ -1,0 +1,73 @@
+-------INPUT------
+Number of elements: 6
+######__FLOWER__#####
+Name:	wnuaKmBKy-
+Type:	Garden
+#####################
+
+######__TREE__#######
+Name:	FvOJEwCxhBikUeOKIml
+Age:	444 y
+#####################
+
+######__TREE__#######
+Name:	EhAnVJp
+Age:	369 y
+#####################
+
+######__FLOWER__#####
+Name:	KXkmclzsxUOyo
+Type:	Garden
+#####################
+
+######__FLOWER__#####
+Name:	xXUUeP
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	viBbznGGjlgGKYO
+Blossom time:	April
+#####################
+
+___________________________________________
+-------OUTPUT------
+Number of elements: 6
+######__SHRUB__######
+Name:	viBbznGGjlgGKYO
+Blossom time:	April
+#####################
+Relation: 0.200000
+
+######__TREE__#######
+Name:	EhAnVJp
+Age:	369 y
+#####################
+Relation: 0.285714
+
+######__FLOWER__#####
+Name:	wnuaKmBKy-
+Type:	Garden
+#####################
+Relation: 0.300000
+
+######__FLOWER__#####
+Name:	KXkmclzsxUOyo
+Type:	Garden
+#####################
+Relation: 0.307692
+
+######__TREE__#######
+Name:	FvOJEwCxhBikUeOKIml
+Age:	444 y
+#####################
+Relation: 0.368421
+
+######__FLOWER__#####
+Name:	xXUUeP
+Type:	Garden
+#####################
+Relation: 0.500000
+
+___________________________________________
+Time: 0 ms

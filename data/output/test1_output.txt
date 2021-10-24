@@ -1,0 +1,62 @@
+-------INPUT------
+Number of elements: 5
+######__FLOWER__#####
+Name:	b
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	ab
+Blossom time:	May
+#####################
+
+######__TREE__#######
+Name:	a
+Age:	870 y
+#####################
+
+######__TREE__#######
+Name:	'
+Age:	100 y
+#####################
+
+######__SHRUB__######
+Name:	HelloWorld!
+Blossom time:	April
+#####################
+
+___________________________________________
+-------OUTPUT------
+Number of elements: 5
+######__TREE__#######
+Name:	'
+Age:	100 y
+#####################
+Relation: 0.000000
+
+######__FLOWER__#####
+Name:	b
+Type:	Domestic
+#####################
+Relation: 0.000000
+
+######__SHRUB__######
+Name:	HelloWorld!
+Blossom time:	April
+#####################
+Relation: 0.272727
+
+######__SHRUB__######
+Name:	ab
+Blossom time:	May
+#####################
+Relation: 0.500000
+
+######__TREE__#######
+Name:	a
+Age:	870 y
+#####################
+Relation: 1.000000
+
+___________________________________________
+Time: 0 ms

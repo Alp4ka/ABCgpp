@@ -1,0 +1,128 @@
+-------INPUT------
+Number of elements: 11
+######__FLOWER__#####
+Name:	JsHpVAjZJpYWQoDQNP
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	p
+Age:	230 y
+#####################
+
+######__SHRUB__######
+Name:	kRhaxrWSlJiEsy
+Blossom time:	July
+#####################
+
+######__FLOWER__#####
+Name:	tWZjWBtzsceiXwY
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	e-VfLLQQRyeMKIY
+Blossom time:	August
+#####################
+
+######__SHRUB__######
+Name:	KOmRpIJooQsSVG
+Blossom time:	May
+#####################
+
+######__SHRUB__######
+Name:	ogEGlGVvArWT
+Blossom time:	February
+#####################
+
+######__TREE__#######
+Name:	xdTPzXlOQrZVNoF
+Age:	50 y
+#####################
+
+######__FLOWER__#####
+Name:	dA-QD
+Type:	Garden
+#####################
+
+######__FLOWER__#####
+Name:	EHw
+Type:	Wild
+#####################
+
+######__TREE__#######
+Name:	qXSCZROZ
+Age:	739 y
+#####################
+
+___________________________________________
+-------OUTPUT------
+Number of elements: 11
+######__TREE__#######
+Name:	p
+Age:	230 y
+#####################
+Relation: 0.000000
+
+######__TREE__#######
+Name:	qXSCZROZ
+Age:	739 y
+#####################
+Relation: 0.125000
+
+######__TREE__#######
+Name:	xdTPzXlOQrZVNoF
+Age:	50 y
+#####################
+Relation: 0.133333
+
+######__FLOWER__#####
+Name:	JsHpVAjZJpYWQoDQNP
+Type:	Domestic
+#####################
+Relation: 0.166667
+
+######__FLOWER__#####
+Name:	dA-QD
+Type:	Garden
+#####################
+Relation: 0.200000
+
+######__FLOWER__#####
+Name:	tWZjWBtzsceiXwY
+Type:	Domestic
+#####################
+Relation: 0.200000
+
+######__SHRUB__######
+Name:	ogEGlGVvArWT
+Blossom time:	February
+#####################
+Relation: 0.250000
+
+######__SHRUB__######
+Name:	KOmRpIJooQsSVG
+Blossom time:	May
+#####################
+Relation: 0.285714
+
+######__SHRUB__######
+Name:	kRhaxrWSlJiEsy
+Blossom time:	July
+#####################
+Relation: 0.285714
+
+######__FLOWER__#####
+Name:	EHw
+Type:	Wild
+#####################
+Relation: 0.333333
+
+######__SHRUB__######
+Name:	e-VfLLQQRyeMKIY
+Blossom time:	August
+#####################
+Relation: 0.333333
+
+___________________________________________
+Time: 0 ms

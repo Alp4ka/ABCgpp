@@ -1,0 +1,183 @@
+-------INPUT------
+Number of elements: 16
+######__FLOWER__#####
+Name:	rVAFvXoLbQvTqZy
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	vWSQREg
+Age:	690 y
+#####################
+
+######__TREE__#######
+Name:	jfrXPZFsfq
+Age:	281 y
+#####################
+
+######__TREE__#######
+Name:	m
+Age:	897 y
+#####################
+
+######__SHRUB__######
+Name:	meoD
+Blossom time:	February
+#####################
+
+######__FLOWER__#####
+Name:	TZYNGmhTdnRwKJF
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	mv-XrNnUU
+Blossom time:	September
+#####################
+
+######__TREE__#######
+Name:	GxgZLiZIKaaXDiJ
+Age:	606 y
+#####################
+
+######__TREE__#######
+Name:	mv
+Age:	15 y
+#####################
+
+######__TREE__#######
+Name:	BeGeHTLJLDTKtKH
+Age:	295 y
+#####################
+
+######__FLOWER__#####
+Name:	iukHwqSGqdIyErOv
+Type:	Wild
+#####################
+
+######__FLOWER__#####
+Name:	RLncWHYLrVtOoD
+Type:	Garden
+#####################
+
+######__FLOWER__#####
+Name:	UXuuUZkPvmaiiaK
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	WevZsbrxuhTPO
+Blossom time:	December
+#####################
+
+######__FLOWER__#####
+Name:	VpZFNJlOe-NMMdJY
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	WhiqWE
+Age:	239 y
+#####################
+
+___________________________________________
+-------OUTPUT------
+Number of elements: 16
+######__TREE__#######
+Name:	mv
+Age:	15 y
+#####################
+Relation: 0.000000
+
+######__TREE__#######
+Name:	m
+Age:	897 y
+#####################
+Relation: 0.000000
+
+######__TREE__#######
+Name:	jfrXPZFsfq
+Age:	281 y
+#####################
+Relation: 0.000000
+
+######__FLOWER__#####
+Name:	TZYNGmhTdnRwKJF
+Type:	Garden
+#####################
+Relation: 0.066667
+
+######__TREE__#######
+Name:	BeGeHTLJLDTKtKH
+Age:	295 y
+#####################
+Relation: 0.133333
+
+######__TREE__#######
+Name:	vWSQREg
+Age:	690 y
+#####################
+Relation: 0.142857
+
+######__FLOWER__#####
+Name:	VpZFNJlOe-NMMdJY
+Type:	Domestic
+#####################
+Relation: 0.187500
+
+######__FLOWER__#####
+Name:	rVAFvXoLbQvTqZy
+Type:	Domestic
+#####################
+Relation: 0.200000
+
+######__FLOWER__#####
+Name:	RLncWHYLrVtOoD
+Type:	Garden
+#####################
+Relation: 0.214286
+
+######__SHRUB__######
+Name:	mv-XrNnUU
+Blossom time:	September
+#####################
+Relation: 0.222222
+
+######__SHRUB__######
+Name:	WevZsbrxuhTPO
+Blossom time:	December
+#####################
+Relation: 0.230769
+
+######__TREE__#######
+Name:	WhiqWE
+Age:	239 y
+#####################
+Relation: 0.333333
+
+######__TREE__#######
+Name:	GxgZLiZIKaaXDiJ
+Age:	606 y
+#####################
+Relation: 0.333333
+
+######__FLOWER__#####
+Name:	iukHwqSGqdIyErOv
+Type:	Wild
+#####################
+Relation: 0.375000
+
+######__SHRUB__######
+Name:	meoD
+Blossom time:	February
+#####################
+Relation: 0.500000
+
+######__FLOWER__#####
+Name:	UXuuUZkPvmaiiaK
+Type:	Domestic
+#####################
+Relation: 0.533333
+
+___________________________________________
+Time: 2 ms

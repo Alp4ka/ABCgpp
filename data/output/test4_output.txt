@@ -1,0 +1,139 @@
+-------INPUT------
+Number of elements: 12
+######__FLOWER__#####
+Name:	aJlNHeYYfhzNe
+Type:	Wild
+#####################
+
+######__FLOWER__#####
+Name:	DBIjFlR
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	Qwc
+Blossom time:	May
+#####################
+
+######__TREE__#######
+Name:	ozpnWgRXPekdGnyYCd
+Age:	894 y
+#####################
+
+######__TREE__#######
+Name:	rbkJ
+Age:	833 y
+#####################
+
+######__SHRUB__######
+Name:	vXRtlLeMUDNxXJuFGFL
+Blossom time:	April
+#####################
+
+######__FLOWER__#####
+Name:	vABMWZuQAeQlfNA
+Type:	Wild
+#####################
+
+######__TREE__#######
+Name:	IC
+Age:	182 y
+#####################
+
+######__FLOWER__#####
+Name:	EZPxsRMAmGD
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	HcXlckSXWUvwGKbX
+Age:	182 y
+#####################
+
+######__TREE__#######
+Name:	WTTTOzoBY
+Age:	458 y
+#####################
+
+######__FLOWER__#####
+Name:	uip
+Type:	Wild
+#####################
+
+___________________________________________
+-------OUTPUT------
+Number of elements: 12
+######__TREE__#######
+Name:	rbkJ
+Age:	833 y
+#####################
+Relation: 0.000000
+
+######__SHRUB__######
+Name:	Qwc
+Blossom time:	May
+#####################
+Relation: 0.000000
+
+######__TREE__#######
+Name:	HcXlckSXWUvwGKbX
+Age:	182 y
+#####################
+Relation: 0.062500
+
+######__FLOWER__#####
+Name:	DBIjFlR
+Type:	Domestic
+#####################
+Relation: 0.142857
+
+######__SHRUB__######
+Name:	vXRtlLeMUDNxXJuFGFL
+Blossom time:	April
+#####################
+Relation: 0.157895
+
+######__FLOWER__#####
+Name:	EZPxsRMAmGD
+Type:	Domestic
+#####################
+Relation: 0.181818
+
+######__TREE__#######
+Name:	ozpnWgRXPekdGnyYCd
+Age:	894 y
+#####################
+Relation: 0.222222
+
+######__TREE__#######
+Name:	WTTTOzoBY
+Age:	458 y
+#####################
+Relation: 0.333333
+
+######__FLOWER__#####
+Name:	vABMWZuQAeQlfNA
+Type:	Wild
+#####################
+Relation: 0.333333
+
+######__FLOWER__#####
+Name:	aJlNHeYYfhzNe
+Type:	Wild
+#####################
+Relation: 0.384615
+
+######__TREE__#######
+Name:	IC
+Age:	182 y
+#####################
+Relation: 0.500000
+
+######__FLOWER__#####
+Name:	uip
+Type:	Wild
+#####################
+Relation: 0.666667
+
+___________________________________________
+Time: 0 ms

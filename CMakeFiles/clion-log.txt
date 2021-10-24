@@ -1,0 +1,42 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "C:\Users\kisam\OneDrive\Рабочий стол\ABCgpp"
+-- The C compiler identification is MSVC 19.27.29111.0
+-- The CXX compiler identification is MSVC 19.27.29111.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/CMakeTestCCompiler.cmake:66 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/kisam/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/ABCgpp/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):nmake -f Makefile /nologo cmTC_0cf46\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_0cf46.dir\build.make /nologo -L                  CMakeFiles\cmTC_0cf46.dir\build
+    Building C object CMakeFiles/cmTC_0cf46.dir/testCCompiler.c.obj
+    	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_0cf46.dir\testCCompiler.c.obj.d --working-dir="C:\Users\kisam\OneDrive\в•ЁСЂСЃСЋСћС€С‰ С‘Р„СЋС‹\ABCgpp\CMakeFiles\CMakeTmp" --filter-prefix="" -- C:\PROGRA~2\MICROS~4\2019\ENTERP~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\kisam\AppData\Local\Temp\nm3955.tmp
+    Linking C executable cmTC_0cf46.exe
+    	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0cf46.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\ENTERP~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_0cf46.dir\objects1.rsp @C:\Users\kisam\AppData\Local\Temp\nm3A40.tmp
+    LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\ENTERP~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_0cf46.dir\objects1.rsp /out:cmTC_0cf46.exe /implib:cmTC_0cf46.lib /pdb:C:\Users\kisam\OneDrive\??????? ????\ABCgpp\CMakeFiles\CMakeTmp\cmTC_0cf46.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_0cf46.dir/intermediate.manifest CMakeFiles\cmTC_0cf46.dir/manifest.res" failed (exit code 1201) with the following output:
+    LINK : fatal error LNK1201: РћС€РёР±РєР° РїСЂРё Р·Р°РїРёСЃРё РІ Р±Р°Р·Сѓ РґР°РЅРЅС‹С… "C:\Users\kisam\OneDrive\??????? ????\ABCgpp\CMakeFiles\CMakeTmp\cmTC_0cf46.pdb" РїСЂРѕРіСЂР°РјРјС‹; РІРѕР·РјРѕР¶РЅРѕ, РЅРµ С…РІР°С‚Р°РµС‚ РјРµСЃС‚Р° РЅР° РґРёСЃРєРµ, РЅРµРґРѕРїСѓСЃС‚РёРјС‹Р№ РїСѓС‚СЊ РёР»Рё РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РїСЂР°РІ
+    NMAKE : fatal error U1077: "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0xffffffff"
+    Stop.
+    NMAKE : fatal error U1077: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe" : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x2"
+    Stop.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:1 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/kisam/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/ABCgpp/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/kisam/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/ABCgpp/CMakeFiles/CMakeError.log".
