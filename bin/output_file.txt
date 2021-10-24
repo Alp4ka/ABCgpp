@@ -1,0 +1,476 @@
+-------INPUT------
+Number of elements: 47
+######__SHRUB__######
+Name:	FnHPPaUNMTIMeýýýýÝÝÝÝÝÝÝÝÝÝ
+Blossom time:	September
+#####################
+
+######__FLOWER__#####
+Name:	lOGýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	GWRVBýýýý
+Type:	Wild
+#####################
+
+######__FLOWER__#####
+Name:	yymýýýý`¶—™O6
+Type:	Wild
+#####################
+
+######__TREE__#######
+Name:	MCjvZýýýý
+Age:	46 y
+#####################
+
+######__FLOWER__#####
+Name:	IHYWOQrvWRodZUeLýýýý@fhe¶—àA6
+Type:	Garden
+#####################
+
+######__TREE__#######
+Name:	kXgýýýý
+Age:	691 y
+#####################
+
+######__SHRUB__######
+Name:	azBXmwTlNQGTYRkpLxýýýý
+Blossom time:	August
+#####################
+
+######__TREE__#######
+Name:	LjAVIagnMbýýýý¶—çN6
+Age:	598 y
+#####################
+
+######__SHRUB__######
+Name:	xhPKWltcoHMWOjbýýýý
+Blossom time:	February
+#####################
+
+######__SHRUB__######
+Name:	fMiGhOCNntýýýý
+Blossom time:	June
+#####################
+
+######__TREE__#######
+Name:	jmpsKLWUcOhViCýýýý
+Age:	708 y
+#####################
+
+######__FLOWER__#####
+Name:	dqyWýýýýê†
+Type:	Garden
+#####################
+
+######__TREE__#######
+Name:	FOVbC-XQmýýýý
+Age:	299 y
+#####################
+
+######__FLOWER__#####
+Name:	JKAzGocHMQkrXZiYxxqýýýý
+Type:	Garden
+#####################
+
+######__TREE__#######
+Name:	HIwýýýý
+Age:	66 y
+#####################
+
+######__SHRUB__######
+Name:	jGKminOZeteOSýýýý
+Blossom time:	December
+#####################
+
+######__SHRUB__######
+Name:	ccGCbuAojjqw-ýýýý
+Blossom time:	January
+#####################
+
+######__SHRUB__######
+Name:	bpthuQZýýýý
+Blossom time:	July
+#####################
+
+######__FLOWER__#####
+Name:	v-cdixTrRQYsLýýýý
+Type:	Garden
+#####################
+
+######__TREE__#######
+Name:	JFVYRDkyzTklbkoeýýýý
+Age:	534 y
+#####################
+
+######__SHRUB__######
+Name:	PEaBgrzSNýýýý
+Blossom time:	July
+#####################
+
+######__TREE__#######
+Name:	TfTt-TRýýýý
+Age:	736 y
+#####################
+
+######__SHRUB__######
+Name:	iyNýýýý
+Blossom time:	April
+#####################
+
+######__FLOWER__#####
+Name:	WzJmmZýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	iHaqZXndqScRdrFýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	JvSTzNSTxkQnSaBtdXýýýý
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	-E-ýýýý
+Blossom time:	March
+#####################
+
+######__FLOWER__#####
+Name:	piIýýýý
+Type:	Wild
+#####################
+
+######__SHRUB__######
+Name:	aoNVxZKcsýýýý
+Blossom time:	September
+#####################
+
+######__SHRUB__######
+Name:	XNUmbAUfKXbeTHAýýýý
+Blossom time:	June
+#####################
+
+######__TREE__#######
+Name:	FYLXWýýýý
+Age:	346 y
+#####################
+
+######__SHRUB__######
+Name:	oHDdsFUsGUxBFBdytUDýýýý
+Blossom time:	March
+#####################
+
+######__SHRUB__######
+Name:	lAnVBSpbBcFYjEkfnz-ýýýý
+Blossom time:	June
+#####################
+
+######__SHRUB__######
+Name:	ZPBCiFpX--gýýýý
+Blossom time:	January
+#####################
+
+######__SHRUB__######
+Name:	GESOMC-ýýýý
+Blossom time:	July
+#####################
+
+######__SHRUB__######
+Name:	kioYgýýýý
+Blossom time:	March
+#####################
+
+######__SHRUB__######
+Name:	uzUgFtWGShfaeyPkuVXýýýý
+Blossom time:	October
+#####################
+
+######__TREE__#######
+Name:	doSýýýý
+Age:	835 y
+#####################
+
+######__FLOWER__#####
+Name:	ZrYýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	ShGwfkýýýý
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	EsfZUTLHfDJqCKahýýýý
+Age:	49 y
+#####################
+
+######__SHRUB__######
+Name:	URdiekrnIQJXqJOvYýýýý
+Blossom time:	August
+#####################
+
+######__SHRUB__######
+Name:	EuqycJElýýýý
+Blossom time:	August
+#####################
+
+######__FLOWER__#####
+Name:	fUubqRjCjKTGýýýý“èJ†
+Type:	Garden
+#####################
+
+######__FLOWER__#####
+Name:	STeAZlRGZýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	retadiBieCKTsnyiMMýýýý
+Type:	Garden
+#####################
+
+___________________________________________
+-------INPUT------
+Number of elements: 47
+######__FLOWER__#####
+Name:	ShGwfkýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	WzJmmZýýýý
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	TfTt-TRýýýý
+Age:	736 y
+#####################
+
+######__TREE__#######
+Name:	kXgýýýý
+Age:	691 y
+#####################
+
+######__TREE__#######
+Name:	MCjvZýýýý
+Age:	46 y
+#####################
+
+######__FLOWER__#####
+Name:	GWRVBýýýý
+Type:	Wild
+#####################
+
+######__FLOWER__#####
+Name:	JvSTzNSTxkQnSaBtdXýýýý
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	ZPBCiFpX--gýýýý
+Blossom time:	January
+#####################
+
+######__TREE__#######
+Name:	FOVbC-XQmýýýý
+Age:	299 y
+#####################
+
+######__FLOWER__#####
+Name:	dqyWýýýýê†
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	bpthuQZýýýý
+Blossom time:	July
+#####################
+
+######__SHRUB__######
+Name:	azBXmwTlNQGTYRkpLxýýýý
+Blossom time:	August
+#####################
+
+######__FLOWER__#####
+Name:	fUubqRjCjKTGýýýý“èJ†
+Type:	Garden
+#####################
+
+######__FLOWER__#####
+Name:	iHaqZXndqScRdrFýýýý
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	xhPKWltcoHMWOjbýýýý
+Blossom time:	February
+#####################
+
+######__TREE__#######
+Name:	FYLXWýýýý
+Age:	346 y
+#####################
+
+######__FLOWER__#####
+Name:	lOGýýýý
+Type:	Domestic
+#####################
+
+######__FLOWER__#####
+Name:	v-cdixTrRQYsLýýýý
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	fMiGhOCNntýýýý
+Blossom time:	June
+#####################
+
+######__SHRUB__######
+Name:	lAnVBSpbBcFYjEkfnz-ýýýý
+Blossom time:	June
+#####################
+
+######__TREE__#######
+Name:	LjAVIagnMbýýýý¶—çN6
+Age:	598 y
+#####################
+
+######__FLOWER__#####
+Name:	ZrYýýýý
+Type:	Domestic
+#####################
+
+######__TREE__#######
+Name:	doSýýýý
+Age:	835 y
+#####################
+
+######__SHRUB__######
+Name:	-E-ýýýý
+Blossom time:	March
+#####################
+
+######__TREE__#######
+Name:	HIwýýýý
+Age:	66 y
+#####################
+
+######__SHRUB__######
+Name:	FnHPPaUNMTIMeýýýýÝÝÝÝÝÝÝÝÝÝ
+Blossom time:	September
+#####################
+
+######__TREE__#######
+Name:	EsfZUTLHfDJqCKahýýýý
+Age:	49 y
+#####################
+
+######__FLOWER__#####
+Name:	STeAZlRGZýýýý
+Type:	Domestic
+#####################
+
+######__SHRUB__######
+Name:	aoNVxZKcsýýýý
+Blossom time:	September
+#####################
+
+######__SHRUB__######
+Name:	PEaBgrzSNýýýý
+Blossom time:	July
+#####################
+
+######__TREE__#######
+Name:	jmpsKLWUcOhViCýýýý
+Age:	708 y
+#####################
+
+######__FLOWER__#####
+Name:	JKAzGocHMQkrXZiYxxqýýýý
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	ccGCbuAojjqw-ýýýý
+Blossom time:	January
+#####################
+
+######__SHRUB__######
+Name:	GESOMC-ýýýý
+Blossom time:	July
+#####################
+
+######__TREE__#######
+Name:	JFVYRDkyzTklbkoeýýýý
+Age:	534 y
+#####################
+
+######__FLOWER__#####
+Name:	yymýýýý`¶—™O6
+Type:	Wild
+#####################
+
+######__SHRUB__######
+Name:	oHDdsFUsGUxBFBdytUDýýýý
+Blossom time:	March
+#####################
+
+######__SHRUB__######
+Name:	uzUgFtWGShfaeyPkuVXýýýý
+Blossom time:	October
+#####################
+
+######__SHRUB__######
+Name:	XNUmbAUfKXbeTHAýýýý
+Blossom time:	June
+#####################
+
+######__FLOWER__#####
+Name:	IHYWOQrvWRodZUeLýýýý@fhe¶—àA6
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	URdiekrnIQJXqJOvYýýýý
+Blossom time:	August
+#####################
+
+######__FLOWER__#####
+Name:	piIýýýý
+Type:	Wild
+#####################
+
+######__SHRUB__######
+Name:	iyNýýýý
+Blossom time:	April
+#####################
+
+######__SHRUB__######
+Name:	jGKminOZeteOSýýýý
+Blossom time:	December
+#####################
+
+######__FLOWER__#####
+Name:	retadiBieCKTsnyiMMýýýý
+Type:	Garden
+#####################
+
+######__SHRUB__######
+Name:	EuqycJElýýýý
+Blossom time:	August
+#####################
+
+######__SHRUB__######
+Name:	kioYgýýýý
+Blossom time:	March
+#####################
+
+___________________________________________

@@ -36,13 +36,12 @@
 #include <cstring>
 #include <time.h>
 #include <stdlib.h>
-#include "models/plant.h"
 #include "container/container.h"
-#include "models/flower.h"
-#include "models/tree.h"
-#include "models/shrub.h"
 #include "algorithms/algorithms.h"
-
+#include "models/Flower.h"
+#include "models/Plant.h"
+#include "models/Shrub.h"
+#include "models/Tree.h"
 
 const char *kHelpMessageFlag = "-h";
 const char *kScreenOutputFlag = "-s";
@@ -86,22 +85,22 @@ void ShowMsg(char *message) {
 /*
  * Generate plant with defined type for random input.
  */
-void GeneratePlant(char *output, Plant::plant_type plant_type) {
+void GeneratePlant(char *output, Plant::PlantType plant_type) {
     int f_type, b_time, t_age;
-    char *name = (char *) (malloc(sizeof(char) * MAX_NAME_LENGTH + 1));
+    char name[MAX_NAME_LENGTH + 1];
     int random_size = RandomInt(3, MAX_NAME_LENGTH);
     strcpy(name, RandomString(random_size));
     switch (plant_type) {
         case Plant::FLOWER:
-            f_type = RandomInt(0, TYPES_LENGTH);
+            f_type = RandomInt(0, Flower::kTypesSize);
             sprintf(output, "%s %d", name, f_type);
             return;
         case Plant::SHRUB:
-            b_time = RandomInt(0, MONTHS_LENGTH);
+            b_time = RandomInt(0, Shrub::kMonthsAmount);
             sprintf(output, "%s %d", name, b_time);
             return;
         case Plant::TREE:
-            t_age = RandomInt(1, MAX_AGE);
+            t_age = RandomInt(1, Tree::kMaxAge);
             sprintf(output, "%s %d", name, t_age);
             return;
         default:
@@ -121,7 +120,7 @@ char **GenerateRandomInput(int required_size) {
         result[i] = new char[2];
         sprintf(result[i], "%d", plant_type);
         result[i + 1] = new char[255];
-        GeneratePlant(result[i + 1], (Plant::plant_type) plant_type);
+        GeneratePlant(result[i + 1], (Plant::PlantType) plant_type);
     }
     return result;
 }
@@ -176,7 +175,7 @@ void WriteToFile(FILE *file, Container *container, int time) {
         ShowMsg(str_size);
     }
     for (int i = 0; i < container->size; ++i) {
-        char *data = ReprPlant(AtIndex(container, i));
+        char *data = (AtIndex(container, i))->repr();
         if (time != 0) {
             double relation = CountRelation(*AtIndex(container, i));
             fprintf(file, "%sRelation: %f\n\n", data, relation);
@@ -230,7 +229,7 @@ void ReadInput(FILE *input_file, Container *container) {
     int size;
     fscanf(input_file, "%d", &size);
     for (int i = 0; i < size; ++i) {
-        Plant *plant = FReadData(input_file);
+        Plant *plant = Plant::readData(input_file);
         AppendContainer(container, plant);
     }
 

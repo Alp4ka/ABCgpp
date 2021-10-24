@@ -1,7 +1,7 @@
 #ifndef PROGRAM_UTILS_H
 #define PROGRAM_UTILS_H
 
-#include "./../models/plant.h"
+#include "./../models/Plant.h"
 
 const char kVowels[] = {'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'};
 

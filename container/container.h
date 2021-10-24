@@ -1,7 +1,7 @@
 #ifndef PROGRAM_CONTAINER_H
 #define PROGRAM_CONTAINER_H
 #define MAX_SIZE 10000
-#include "./../models/plant.h"
+#include "./../models/Plant.h"
 struct Container{
     int size;
     Plant* elements[MAX_SIZE];

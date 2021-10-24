@@ -26,7 +26,7 @@ char *RandomString(int length) {
     char *result = new char[length];
     const char kAlphabet[] = "QWERTYUIOPASDFGHJKLZXCVBNM-qwertyuiopasdfghjklzxcvbnm";
     for (int i = 0; i < length; ++i) {
-        result[i] = kAlphabet[RandomInt(0, 53)];
+        result[i] = kAlphabet[RandomInt(0, strlength(const_cast<char *>(kAlphabet)))];
     }
     return result;
 }

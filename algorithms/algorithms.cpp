@@ -1,6 +1,6 @@
 #include <cstdlib>
 #include "algorithms.h"
-#include "./../models/plant.h"
+#include "./../models/Plant.h"
 #include "./../utils/utils.h"
 
 void Merge(Container *container, int p, int q, int r) {

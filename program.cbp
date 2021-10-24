@@ -4,105 +4,132 @@
 	<Project>
 		<Option title="program"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/roman/Desktop/ABC1st"/>
+				<Option working_dir="C:/ABCgpp"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/roman/Desktop/ABC1st"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/roman/Desktop/ABC1st"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="program">
-				<Option output="/home/roman/Desktop/ABC1st/bin/program" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/roman/Desktop/ABC1st/bin"/>
+				<Option output="C:/ABCgpp/bin/program.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/ABCgpp/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 program"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 program"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="program/fast">
-				<Option output="/home/roman/Desktop/ABC1st/bin/program" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/roman/Desktop/ABC1st/bin"/>
+				<Option output="C:/ABCgpp/bin/program.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/ABCgpp/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 program/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/roman/Desktop/ABC1st/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 program/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/ABCgpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/ABCgpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\ABCgpp\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/roman/Desktop/ABC1st/algorithms/algorithms.cpp">
+		<Unit filename="C:/ABCgpp/algorithms/algorithms.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/algorithms/algorithms.h">
+		<Unit filename="C:/ABCgpp/algorithms/algorithms.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/container/container.cpp">
+		<Unit filename="C:/ABCgpp/container/container.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/container/container.h">
+		<Unit filename="C:/ABCgpp/container/container.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/main.cpp">
+		<Unit filename="C:/ABCgpp/main.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/models/flower.h">
+		<Unit filename="C:/ABCgpp/models/Flower.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/models/plant.cpp">
+		<Unit filename="C:/ABCgpp/models/Flower.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/models/plant.h">
+		<Unit filename="C:/ABCgpp/models/Plant.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/models/shrub.h">
+		<Unit filename="C:/ABCgpp/models/Plant.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/models/tree.h">
+		<Unit filename="C:/ABCgpp/models/Shrub.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/utils/utils.cpp">
+		<Unit filename="C:/ABCgpp/models/Shrub.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/utils/utils.h">
+		<Unit filename="C:/ABCgpp/models/Tree.cpp">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/home/roman/Desktop/ABC1st/CMakeLists.txt">
+		<Unit filename="C:/ABCgpp/models/Tree.h">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/ABCgpp/utils/utils.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/ABCgpp/utils/utils.h">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/ABCgpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
